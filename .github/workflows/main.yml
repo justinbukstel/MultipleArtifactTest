@@ -12,9 +12,9 @@ jobs:
           uses: veracode/veracode-uploadandscan-action@0.2.4
           with:
             # appname
-            appname: VeraGHA
+            appname: VeraGHA-2.0
             # createprofile
-            createprofile: false # default is true
+            createprofile: true # default is true
             # filepath
             filepath: analysis/
             # version
