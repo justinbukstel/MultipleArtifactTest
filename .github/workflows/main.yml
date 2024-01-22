@@ -7,6 +7,7 @@ jobs:
   veracode-sast-scan:
       runs-on: ubuntu-latest
       steps: 
+        - uses: actions/checkout@v2
         - name: check directory
           run: ls -la
         - name: Veracode Upload And Scan
