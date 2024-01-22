@@ -8,8 +8,7 @@ jobs:
       runs-on: ubuntu-latest
       steps: 
         - name: check directory
-          run: |
-            ls
+          run: ls -la
         - name: Veracode Upload And Scan
           uses: veracode/veracode-uploadandscan-action@0.2.4
           with:
